@@ -1,0 +1,50 @@
+footer {
+    background-color: #0f0f1a; 
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    min-height: 51px;
+}
+.contactos{
+    display: flex;
+    
+    margin-top: 51px;
+    margin-bottom: 19px;
+}
+.contact{
+    padding-right: 20px;
+}
+.redes{
+    margin-bottom: 77px;
+}
+.apx{
+    text-decoration: none; 
+    color: inherit;
+    margin-bottom: 39px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.apx:visited{
+    color: inherit;
+}
+.logo--footer{    
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 56px;
+}
+.redes--img{
+    margin-left: 24px;
+}
+@media (max-width: 474px) {
+    footer{
+        background-color: #0F1113;
+    }
+    .contactos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins";  
+    background-color: #13171C;
+}
+
+.services--container {
+    background-color: #13171C;
+    background-image: url(../imagenes/fondo.png);
+}
+
+.services{
+    background-color: #13171C;
+    background-image: url(../imagenes/fondo.png);
+}

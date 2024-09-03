@@ -1,0 +1,121 @@
+.welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#13171C ;
+}
+.title,
+.title--2{
+    font-family: 'Poppins';
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 10%;
+}
+.title{
+    color: white;
+}
+.title-service,
+.title-service--2{
+    font-family: 'Poppins';
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 10%;
+}
+.titulo-portfolio,
+.subtitulo-portfolio{
+    font-family: 'Poppins';
+    font-size: 60px;
+    font-weight: 700;
+    /* margin-left: 5%; */
+}
+.title-service,title,.titulo-portfolio{
+    color: white;
+}
+
+.titulos{
+    margin-right: 10% ;
+}
+.title-service--2,.subtitulo-portfolio{
+    color: #00ADB5;
+}
+.title--2{
+    color: #00ADB5;
+
+}
+.cohete{
+    margin-top: 40%;
+    margin-bottom: 30%;
+    max-width: 100%;
+    min-height: 211px;
+}
+.maletin{
+    margin-top: 40%;
+    margin-bottom: 30%;
+    max-width: 100%;
+    min-height: 211px;
+}
+.sombra{
+    margin-bottom: 30%;
+    max-width: 80%;
+}
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 375px) {
+    .welcome{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        background-color:#13171C ;
+    }  
+    .titulos{
+        text-align: center;
+        max-width: 60%;
+    }
+    .title,
+    .title--2{
+        font-size: 45px;
+    }
+    .titulo-portfolio,
+.subtitulo-portfolio{
+    font-size: 45px;
+}
+    .title-service,
+.title-service--2{
+    font-size: 45px;
+}
+    .sombra{
+        display: none;
+    }
+}
+@media (max-width: 532px){
+    .title,
+    .title--2{
+    font-size: 55px;}
+    .title-service,
+.title-service--2{
+    font-size: 55px;}
+}
+.titulo-portfolio,
+.subtitulo-portfolio{
+    font-size: 55px;
+}
+
+@media (max-width: 500px){
+    .title,
+    .title--2{
+    font-size: 44px;
+}
+.titulo-portfolio,
+.subtitulo-portfolio{
+    font-size: 44px;}
+.title-service,
+.title-service--2{
+    font-size: 44px;}
+}
